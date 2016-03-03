@@ -1,4 +1,5 @@
 
+/*Common elements and mobile device settings*/
 ul {
     list-style-type: none;
     margin: 0;
@@ -6,6 +7,7 @@ ul {
     width: 100%;
     overflow: hidden;
     background-color: #333;
+    
 }
 
  li {
@@ -26,38 +28,38 @@ li a:hover {
     color: white;
 }
  
+.active {
+    background-color: #4CAF50;
+}
  
  /* Desktop */
  
  @media only screen and (min-width: 768px){
-    /*
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        overflow: hidden;
-        background-color: #333;
-    }
-    */
 
     li {
         float: left;
+        display: inline;
+        border-right: 1px solid #bbb;
+    }
+    .rightSideLink{
+        float: right;
+        border-left: 1px solid #bbb;
+        
     }
 
+    li:last-child {
+        border-right: none;
+    }
+    
+
     li a {
-        display: block;
-        color: white;
-        text-align: center;
         padding: 14px 16px;
-        text-decoration: none;
     }
 
     a:hover:not(.active) {
         background-color: #111;
     }
+    
 
-    .active {
-    background-color:#4CAF50;
-    }
+
  }
