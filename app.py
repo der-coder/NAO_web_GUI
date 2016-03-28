@@ -4,7 +4,8 @@ from bottle import route, error, post, get, run, static_file, abort, redirect, r
 @route('/')
 @route('/index.html')
 def index():
-    return '<a href="/hello">Go to Hello World page</a>'
+#    return '<a href="/hello">Go to Hello World page</a>'
+     return static_file('html/index.html',root='.')
 
 @route('/hello')
 def hello():
