@@ -18,13 +18,19 @@ def images(filename):
 def fonts(filename):
     return static_file(filename, root='static/fonts')
 
+@get('/<filename:re:.*\.txt>')
+def text(filename):
+    return static_file(filename, root='static/help')
+
 
 @route('/')
 @route('/index.html')
 def index():
-#    return '<a href="/hello">Go to Hello World page</a>'
-     return static_file('html/index.html',root='.')
+     return static_file('index.html',root='html')
 
+@route('/help_index')
+def help_index():
+    return static_file('help.html',root='html')
 
 @error(404)
 def error404(error):
