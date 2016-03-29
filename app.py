@@ -24,11 +24,11 @@ def text(filename):
 
 
 @route('/')
-@route('/index.html')
+@route('/index')
 def index():
-     return static_file('index.html',root='html')
+     return template('index.tpl')
 
-@route('/help_index')
+@route('/help')
 def help_index():
     return static_file('help.html',root='html')
 
