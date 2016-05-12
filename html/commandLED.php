@@ -1,6 +1,6 @@
 <?php include 'connection.php';?>
 <?php include 'header.php';?>
-<?php include 'header.php';?>
+<?php include 'banner.php';?>
 <?php include 'comandos.php';?>
 
 
