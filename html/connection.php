@@ -1,6 +1,6 @@
 <?php
-//$command = $_GET["command"];
-//$params = trim($_GET["params"]);
+$command = $_GET["command"];
+$params = trim($_GET["params"]);
 
 function receiveData($s){
 	$buf = 'Este es mi buffer.';
