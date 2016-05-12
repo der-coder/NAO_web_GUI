@@ -7,7 +7,7 @@ ul {
     width: 100%;
     overflow: hidden;
     /* background-color: #333;*/
-    background-color: #0e2f44;
+    background-color: #03396c;
     
 }
 
@@ -25,7 +25,7 @@ li a {
 
 /* Change the link color on hover */
 li a:hover {
-    background-color: #555;
+    background-color: #FFF;
     color: white;
 }
 
