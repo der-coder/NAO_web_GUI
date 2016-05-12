@@ -58,29 +58,6 @@ img{
     /* float: center; */
 }
 
-.led,.movement,.voice {
-    display: none;
-}
-/*show .ab*/
-#LED:hover ~ .led {
-    display: block;
-    
-}
-/*show .abc*/
-#Movement:hover ~ .movement {
-    display: block;
-}
-
-#Voice:hover ~ .voice {
-    display: block;
-}
-
-#LED:hover ~ .a,
-#Movement:hover ~ .a,
-#Voice:hover ~ .a{
-    display: none;
-}
-
  /* Desktop */
  
  @media only screen and (min-width: 768px){
