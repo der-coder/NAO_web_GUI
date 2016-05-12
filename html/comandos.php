@@ -1,14 +1,13 @@
-<?php
-echo 
-'
-<ul class="command-classes">
+<?php echo '<ul class="command-classes"><li>LED';?>
+<?php include 'commandLED.php' ?>
 
-<li><a href="commandLED">LED</a>
-<li><a href="commandMovement">Movement</a>
-<li><a href="commandVoice">Voice</a>
-</ul>
-'
-?>
+<?php echo '<ul class="command-classes"><li>Voice';?>
+<?php include 'commandVoice.php' ?>
+
+<?php echo '<ul class="command-classes"><li>Movement';?>
+<?php include 'commandMovement.php' ?>
+
+
 
 //<li><a href="?command=CMDGETPROGRAMSTATUS&params="></a>
 //<li><a href="?command=CMDMEMORYEVENTADD&params="></a>
