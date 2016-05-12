@@ -4,4 +4,5 @@
 <li><a id="Movement" href="commandMovement.php">Movement</a>
 <li><a id="Voice" href="commandVoice.php">Voice</a>
 <li><a id="Program" href="commandProgram.php">Program</a>
+<li><a id="Off" href="?command=SET_LIFE_STATE&params=disabled">Apagar</a>
 </ul>
