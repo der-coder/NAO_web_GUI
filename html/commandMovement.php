@@ -4,9 +4,8 @@
 <?php include 'comandos.php';?>
 
 <ul>
-<li><a href="?command=CMDOPENHAND&params=">Open Hand</a>
-<li><a href="?command=CMDSITDOWN&params=">Sit Down</a>
-<li><a href="?command=CMDSTANDUP&params=">Stand Up</a>
+<li><a href="?command=SIT_DOWN&params=">Sit Down</a>
+<li><a href="?command=STAND_UP&params=">Stand Up</a>
 </ul>
 
 <?php include 'footer.php';?>
