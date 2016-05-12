@@ -9,12 +9,6 @@
  
  </div>
 <h1>About us</h1>
-  <p>
-  The NAO web GUI software is a project aimed to explore the possibilities
-  of using a WAN to control one or more NAO robots at the same time from 
-  any of the supported browsers.
-  </p>
- 
  <h2>The team </h2>
 <table>
     <tr>
