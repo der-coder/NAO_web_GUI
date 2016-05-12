@@ -15,7 +15,7 @@ function receiveData($s){
 
 $sock = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
 
-$sock_data = socket_connect($sock, "10.25.199.37", 5051) ; 
+$sock_data = socket_connect($sock, "10.25.199.67", 5051) ; 
 //Must find the possibility of inputing directly the ip of the NAO robot from the application
 
 $msg = "{'command':'SYS_CONNECT', 'commandArguments':[]}\n";
