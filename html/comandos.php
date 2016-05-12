@@ -5,10 +5,10 @@
 
 <ul class="command-classes">
 <li><a href="#" onclick="toggle_visibility('movement');">Movement</a>'
-<?php include 'commandVoice.php' ?>
 </ul>
+<?php include 'commandVoice.php' ?>
 
 <ul class="command-classes">
 <li><a href="#" onclick="toggle_visibility('voice');">Voice</a>'
-<?php include 'commandMovement.php' ?>
 </ul>
+<?php include 'commandMovement.php' ?>
