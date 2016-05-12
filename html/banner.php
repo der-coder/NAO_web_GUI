@@ -1,7 +1,7 @@
 <?php
 echo
 '
-<img src="../static/img/itesmLogo.jpg" alt="ITESM Logo" id="banner">
+<img src="../static/img/itesmLogoFeo.png" alt="ITESM Logo Feo" id="banner">
 '
 ;
 ?>
