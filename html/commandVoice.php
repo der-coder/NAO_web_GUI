@@ -10,7 +10,7 @@
 
 
 <ul class="voice">
-<li><a href="?command=CMDSAY&params=">Talk</a>
+<li><a href="?command=CMDSAY&params="><img src="static/choregraphe-icons/box/interaction/say.png"></a>
 </ul>
 
 

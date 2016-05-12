@@ -60,9 +60,9 @@ img{
 
 
 .homebox {width: 100%; float: center; margin-bottom: 10px; background: #fff; overflow: hidden;}
-.header {background: #6c6c6c; color: #FFF; border-bottom: 1px solid #6c6c6c; padding: 5px; font-size: 14px; font-weight: bold;}
+/*.header {background: #6c6c6c; color: #FFF; border-bottom: 1px solid #6c6c6c; padding: 5px; font-size: 14px; font-weight: bold;}
 .inside {background: #FCFCFC; border: 1px solid #6c6c6c; padding: 10px; height: 100%;}
-.dashboard-heading {background: #146091;}
+.dashboard-heading {background: #146091;}*/
 
 #icons {list-style: none; margin:0; padding:0;text-align:center}
 #icons a {text-decoration: none;}
