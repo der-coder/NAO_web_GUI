@@ -1,4 +1,4 @@
-<div class="commands" id="LED">
+<div class="led">
 <li><a href="?command=LED_FLASH&params=">Flash LED</a>
 <li><a href="?command=LED_HAPPY&params=">Happy LED</a>
 <li><a href="?command=LED_LAUGH&params=">Laugh LED</a>
