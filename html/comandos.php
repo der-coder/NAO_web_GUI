@@ -28,6 +28,3 @@
 //<li><a href="?command=CMDSETSYSTEMVOLUME&params="></a>
 //<li><a href="?command=CMDVELOCITYWALK&params="></a>
 //<li><a href="?command=LED_SETEYE&params="></a>
-
-
-<div id="foo">This is foo</div>

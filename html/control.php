@@ -14,10 +14,10 @@
 <body>
 
 <navigation>
-<?php include 'html/menu.php';?>
+<?php include 'menu.php';?>
 </navigation>
-<?php include 'html/comandos.php';?>
-<?php include 'html/footer.php';?>
+<?php include 'comandos.php';?>
+<?php include 'footer.php';?>
 
 </body>
 
