@@ -3,10 +3,14 @@
 <body>
 <?php include 'comandos.php';?>
 
-<ul>
-<li><a href="?command=SIT_DOWN&params=">Sit Down</a>
-<li><a href="?command=STAND_UP&params=">Stand Up</a>
-</ul>
+<div class="leftside">
+        <div class="homebox">
+        <ul id="icons">
+<li><a href="?command=SIT_DOWN&params="><img src="view/image/icons/product.png"></a>
+<li><a href="?command=STAND_UP&params="><img src="view/image/icons/product.png"></a>
+        </ul>
+        </div>
+</div>
 
 <?php include 'footer.php';?>
 </body>
