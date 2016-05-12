@@ -1,9 +1,7 @@
-<?php
-echo
-'
 <img src="static/img/itesmLogo.jpg" alt="NAO Remote Control" id="banner">
-<h1>NAO Web Control GUI</p1>
-
-'
-;
-?>
+ <div>
+ <h1>Welcome</h1>
+ <p title="Introduction">
+ This is the homepage for the web GUI to control NAO robots.
+ </p>
+ </div>

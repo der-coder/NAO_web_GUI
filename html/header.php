@@ -15,7 +15,3 @@
  
  </head>
 ';?>
-
-
-//<script src="static/js/jquery-1.6.4.min.js" type="text/javascript"></script>
-//<script src="static/js/jquery.mobile-1.0.min.js" type="text/javascript"></script>
