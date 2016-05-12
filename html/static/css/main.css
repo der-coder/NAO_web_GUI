@@ -58,10 +58,6 @@ img{
     /* float: center; */
 }
 
-#LED, #movement, #voice{
-    display: none;
-    
-}
  /* Desktop */
  
  @media only screen and (min-width: 768px){
@@ -81,7 +77,6 @@ img{
         border-right: none;
     }
     
-
     li a {
         padding: 14px 16px;
     }
@@ -89,7 +84,3 @@ img{
     a:hover:not(.active) {
         background-color: #111;
     }
-    
-
-
- }
