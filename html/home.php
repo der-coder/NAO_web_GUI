@@ -1,6 +1,4 @@
-<div class="container">
 <img src="static/img/itesmLogoFeo.png" alt="NAO Remote Control" id="logo">
-</div>
  <div>
  <h1>Welcome</h1>
  <p title="Introduction">

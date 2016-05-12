@@ -86,25 +86,6 @@ img{
 #icons li img {padding: 8px 18px 2px 18px; align: center;}
 #icons li h6 {color: #333; font-size:12px; text-align: center; margin:0; padding:0;}
 
-.container {
-    width: 200px;
-    height: 120px;
-    float: center; 
-    text-align:center;
-    align:center;
-}
-
-/* resize images */
-.container img {
-    width: 100%;
-    height: auto;
-    float: center; 
-    text-align:center;
-    align:center;
-}
-
-
-
  /* Desktop */
  
  @media only screen and (min-width: 768px){
