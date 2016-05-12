@@ -2,6 +2,8 @@
  <div>
  <h1>Welcome</h1>
  <p title="Introduction">
- This is the homepage for the web GUI to control NAO robots.
+ This webpage is the frontend of the application. It is meant to be used to be used in conjuction
+ with the
  </p>
+ 
  </div>
