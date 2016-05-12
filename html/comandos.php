@@ -3,30 +3,9 @@ echo
 '
 <ul class="command-classes">
 
-<li><a href="?command=CMDOPENHAND&params="></a>
-
-<li><a href="?command=CMDSAY&params="></a>
-<li><a href="?command=CMDSETLIFESTATE&params="></a>
-
-<li><a href="?command=CMDOPENHAND&params="></a>
-<li><a href="?command=CMDPLAYPROGRAM&params="></a>
-<li><a href="?command=CMDSAY&params="></a>
-
-<li><a href="?command=CMDSITDOWN&params="></a>
-<li><a href="?command=CMDSTANDUP&params="></a>
-<li><a href="?command=CMDSTOPPROGRAM&params="></a>
-
-<li><a href="?command=LED_ANGRY&params="></a>
-<li><a href="?command=LED_BLINK&params="></a>
-<li><a href="?command=LED_CAUTIOUS&params="></a>
-<li><a href="?command=LED_CIRCLEEYES&params="></a>
-<li><a href="?command=LED_DISCO&params="></a>
-
-<li><a href="?command=LED_FLASH&params="></a>
-<li><a href="?command=LED_HAPPY&params="></a>
-<li><a href="?command=LED_LAUGH&params="></a>
-<li><a href="?command=LED_MISCHIEVIOUS&params="></a>
-<li><a href="?command=LED_THINKING&params="></a>
+<li><a href="commandLED">LED</a>
+<li><a href="commandMovement">Movement</a>
+<li><a href="commandVoice">Voice</a>
 </ul>
 '
 ?>
