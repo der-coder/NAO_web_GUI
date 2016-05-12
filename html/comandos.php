@@ -1,11 +1,6 @@
 <ul>
-<li><a id="LED">LED</a>
-<li><a id="Movement">Movement</a>
-<li><a id="Voice">Voice</a>
+<li><a id="LED" href="commandLED.php">LED</a>
+<li><a id="Movement" href="commandMovement.php">Movement</a>
+<li><a id="Voice" href="commandVoice.php">Voice</a>
+<li><a id="Voice" href="commandMemory.php">Voice</a>
 </ul>
-<ul>
-<?php include 'commandLED.php' ?>
-<?php include 'commandMovement.php' ?>
-<?php include 'commandVoice.php' ?>
-</ul>
-<!-- <li><a href="#" onclick="toggle_visibility('LED');">LED</a> -->

@@ -8,11 +8,9 @@
 <?php include 'footer.php';?>
 
 
-
-<ul class="voice">
-<li><a href="?command=CMDSAY&params=">Talk</a>
+<ul>
+<li><a href="?command=CMDSTOPPROGRAM&params=">Stop Program</a>
 </ul>
-
 
 
 </body>
