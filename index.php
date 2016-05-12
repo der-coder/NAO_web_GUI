@@ -47,11 +47,8 @@ socket_close($sock); //Close socket
 <?php include 'html/menu.php';?>
 </navigation>
 
-
-<a href="?command=LED_DISCO&params=">DISCO!!!!</a>
-<br/>
-<a href="?command=LED_BLINK&params=">BLINK!!!!</a>
-<br>
+<?php include 'html/home.php';?>
+<?php include 'html/comandos.php';?>
 
 <?php include 'html/footer.php';?>
 
