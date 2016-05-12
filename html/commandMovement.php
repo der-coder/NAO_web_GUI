@@ -1,7 +1,6 @@
-<div> class="commands" id="movement">
-
-<li><a href="?command=CMDOPENHAND&params="></a>
-<li><a href="?command=CMDSITDOWN&params="></a>
-<li><a href="?command=CMDSTANDUP&params="></a>
-<li><a href="?command=CMDSTOPPROGRAM&params="></a>
+<div class="commands" id="movement">
+<li><a href="?command=CMDOPENHAND&params=">Open Hand</a>
+<li><a href="?command=CMDSITDOWN&params=">Sit Down</a>
+<li><a href="?command=CMDSTANDUP&params=">Stand Up</a>
+<li><a href="?command=CMDSTOPPROGRAM&params=">Stop Program</a>
 </div>

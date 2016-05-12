@@ -1,0 +1,123 @@
+#DATA FOR CONECTION
+recieved data = {"command":"SYS_SET_REQUIRED_DATA","commandArguments":["stiffnessData","masterVolume","playerVolume","lifeState"]}
+
+#DATA TO RELEASE THE CONNECTION
+recieved data = {"command":"SYS_DISCONNECT","commandArguments":[]}
+
+#DATA TO DISABLE NAO (INANIMATE)
+recieved data = {"command":"SET_LIFE_STATE","commandArguments":["disabled"]}
+
+#DATA TO SET VOLUME
+recieved data = {"command":"SET_SYSTEM_VOLUME","commandArguments":["75"]}
+
+#DATA TO SET THE PLAYER VOLUME
+recieved data = {"command":"SET_PLAYER_VOLUME","commandArguments":["0.75"]}
+
+#DATA TO SPEECH A STRING
+recieved data = {"command":"SYS_SET_REQUIRED_DATA","commandArguments":["speechVolume","speechVoice","speechLanguage","speechLanguagesList","speechVoicesList"]}
+recieved data = {"command":"SAY","commandArguments":["hi I\u0027m NAO","100","100"]}
+recieved data = {"command":"SET_SPEECH_LANGUAGE","commandArguments":["English"]}
+recieved data = {"command":"SET_SPEECH_VOICE","commandArguments":["naoenu"]}
+
+#DATA TO STAND UP
+recieved data = {"command":"STAND_UP","commandArguments":[]}
+
+#DATA TO SIT DOWN
+recieved data = {"command":"SIT_DOWN","commandArguments":[]}
+
+
+##############################################################################################################
+################################ DATA REQUIRED TO CALL DEFAULT FUNCTIONS #####################################
+
+#ANIMATION HELLO
+recieved data = {"command":"MEMORY_EVENT_RAISE","commandArguments":["animationHello"]}
+
+#ANIMATION SHAKE HANDS
+recieved data = {"command":"MEMORY_EVENT_RAISE","commandArguments":["animationShakeHands"]}
+
+#ANIMATION WIPE FOREHEAD
+recieved data = {"command":"MEMORY_EVENT_RAISE","commandArguments":["animationWipeForehead"]}
+
+#FUNCTION FACE TRACKER
+recieved data = {"command":"MEMORY_EVENT_RAISE","commandArguments":["functionFaceTracker"]}
+
+#FUNCTION RED BALL TRACKER
+recieved data = {"command":"MEMORY_EVENT_RAISE","commandArguments":["functionRedBallTracker"]}
+
+#DANCE THAI CHI
+recieved data = {"command":"MEMORY_EVENT_RAISE","commandArguments":["danceThaiChi"]}
+
+#DANCE EVOLUTION OF DANCE
+recieved data = {"command":"MEMORY_EVENT_RAISE","commandArguments":["danceEvolutionOfDance"]}
+
+#DANCE CARAVAN PALACE
+recieved data = {"command":"MEMORY_EVENT_RAISE","commandArguments":["danceCaravanPalace"]}
+
+#DANCE VANGELIS DANCE
+recieved data = {"command":"MEMORY_EVENT_RAISE","commandArguments":["danceVangelisDance"]}
+
+#DANCE GANGNAM STYLE
+recieved data = {"command":"MEMORY_EVENT_RAISE","commandArguments":["danceGangnamStyle"]}
+
+#DANCE EYE OF THE TIGER
+recieved data = {"command":"MEMORY_EVENT_RAISE","commandArguments":["danceEyeOfTheTiger"]}
+
+##############################################################################################################
+##############################################################################################################
+
+
+##############################################################################################################
+################################ DATA REQUIRED TO CHANGE EYE'S LEDS COLOR ####################################
+
+#LED HAPPY
+recieved data = {"command":"LED_HAPPY","commandArguments":[]}
+
+#LED ANGRY
+recieved data = {"command":"LED_ANGRY","commandArguments":[]}
+
+#LED LAUGH
+recieved data = {"command":"LED_LAUGH","commandArguments":[]}
+
+#LED CAUTIOUS
+recieved data = {"command":"LED_CAUTIOUS","commandArguments":[]}
+
+#LED THINKING
+recieved data = {"command":"LED_THINKING","commandArguments":[]}
+
+#LED MISCHIEVIOUS
+recieved data = {"command":"LED_MISCHIEVIOUS","commandArguments":[]}
+
+#LED DISCO
+recieved data = {"command":"LED_DISCO","commandArguments":[]}
+
+#LED BLINK
+recieved data = {"command":"LED_BLINK","commandArguments":[]}
+
+#LED CIRCLE EYES
+recieved data = {"command":"LED_CIRCLE_EYES","commandArguments":[]}
+
+#LED FLASH
+recieved data = {"command":"LED_FLASH","commandArguments":[]}
+
+#DEFINE A SPECIFIC COLOR
+recieved data = {"command":"LED_SET_EYE","commandArguments":["left","-16713473"]}
+recieved data = {"command":"LED_SET_EYE","commandArguments":["right","-49920"]}
+
+##############################################################################################################
+##############################################################################################################
+
+
+##############################################################################################################
+############################ DATA REQUIRED TO MAKE A PROGRAMM 4 NAO ##########################################
+
+#SAY SOMETHING
+recieved data = {"command":"PLAY_PROGRAM","commandArguments":["{\"name\": \"Say\", \"data\": {\"text\":\"Hello I am NAO.\"}}"]}
+
+#WALK TO-- REQUIRED PARAMETERS THETA: AN ANGLE, X: METERS, Y: METERS
+recieved data = {"command":"PLAY_PROGRAM","commandArguments":["{\"name\": \"Walk to\", \"data\": {\"theta\":15.0,\"x\":0.2,\"arms\":True,\"y\":0.2}}"]}
+
+#STOP EXECUTION OF CURRENTLY PROGRAM
+recieved data = {"command":"STOP_PROGRAM","commandArguments":[]}
+
+##############################################################################################################
+##############################################################################################################
