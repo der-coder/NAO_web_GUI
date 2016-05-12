@@ -1,7 +1,8 @@
 <?php
 echo 
 '
-<ul class="commands">
+<ul class="command-classes">
+
 <li><a href="?command=CMDOPENHAND&params="></a>
 
 <li><a href="?command=CMDSAY&params="></a>
@@ -44,15 +45,3 @@ echo
 //<li><a href="?command=CMDSETSYSTEMVOLUME&params="></a>
 //<li><a href="?command=CMDVELOCITYWALK&params="></a>
 //<li><a href="?command=LED_SETEYE&params="></a>
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
