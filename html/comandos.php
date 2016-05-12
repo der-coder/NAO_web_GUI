@@ -1,11 +1,16 @@
-<?php echo '<ul class="command-classes"><li>LED';?>
+<?php echo '
+<ul class="command-classes">
+<li><a href="#" onclick="toggle_visibility('LED');">LED/a>
+';?>
+
 <?php include 'commandLED.php' ?>
 
-<?php echo '<ul class="command-classes"><li>Voice';?>
+<?php echo '<li><a href="#" onclick="toggle_visibility('movement');">Movement</a>';?>
 <?php include 'commandVoice.php' ?>
 
-<?php echo '<ul class="command-classes"><li>Movement';?>
+<?php echo '<li><a href="#" onclick="toggle_visibility('voice');">Voice</a>';?>
 <?php include 'commandMovement.php' ?>
+<?php echo '</ul>';?>
 
 
 
@@ -23,3 +28,6 @@
 //<li><a href="?command=CMDSETSYSTEMVOLUME&params="></a>
 //<li><a href="?command=CMDVELOCITYWALK&params="></a>
 //<li><a href="?command=LED_SETEYE&params="></a>
+
+
+<div id="foo">This is foo</div>
