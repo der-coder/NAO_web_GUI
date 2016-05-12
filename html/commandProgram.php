@@ -1,3 +1,4 @@
+<?php include 'connection.php';?>
 <?php include 'header.php';?>
 <body>
 <?php include 'banner.php';?>
@@ -17,7 +18,6 @@
 <li><a href="?command=STOP_PROGRAM&params="><img src="static/choregraphe-icons/box/movement/sit.png"></a>
 </ul>
 
-<?php include 'footer.php';?>
 </body>
 
 </html>

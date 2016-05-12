@@ -3,7 +3,6 @@
 <body>
 <?php include 'banner.php';?>
 <?php include 'comandos.php';?>
-<?php include 'footer.php';?>
 
 </body>
 
