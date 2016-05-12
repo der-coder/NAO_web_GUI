@@ -9,6 +9,7 @@
 <li><a href="?command=LED_LAUGH&params=">Laugh LED</a>
 <li><a href="?command=LED_MISCHIEVIOUS&params=">Mischievious LED</a>
 <li><a href="?command=LED_THINKING&params=">Thinking LED</a>
+<li><a href="?command=LED_DISCO&params=">Disco LED</a>
 </ul>
 
 <?php include 'footer.php';?>
