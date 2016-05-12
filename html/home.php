@@ -1,4 +1,4 @@
-<img src="static/img/itesmLogo.jpg" alt="NAO Remote Control" id="banner">
+<img src="static/img/itesmLogoFeo.png" alt="NAO Remote Control" id="banner">
  <div>
  <h1>Welcome</h1>
  <p title="Introduction">
