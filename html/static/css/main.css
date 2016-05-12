@@ -4,7 +4,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 60%;
     overflow: hidden;
     /* background-color: #333;*/
     background-color: #03396c;
@@ -25,8 +25,9 @@ li a {
 
 /* Change the link color on hover */
 li a:hover {
-    background-color: #FFF;
+    background-color: #005b96;
     color: white;
+    
 }
 
 img{
