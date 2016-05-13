@@ -6,8 +6,8 @@
 <ul class="voice">
 <li><a href="?command=CMDSAY&params=$parameters"><img src="static/choregraphe-icons/box/interaction/say.png"></a>
 </ul>
-  <form action="?command=CMDSAY&params=$parameters" method="get">
-    <input name="parameters"  value="Hello"/>
+  <form action="" method="get">
+    <input name="?command=CMDSAY&params="  value="Hello"/>
 
     <input type="submit" name="" 
            value=""/>
