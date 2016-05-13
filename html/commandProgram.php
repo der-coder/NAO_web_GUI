@@ -10,7 +10,7 @@
 
 <li><a href="?command=PLAY_PROGRAM&params='{\'name\': \'Say\', \'data\': {\'text\':\'Hello I am NAO.\'}}'"><img src="static/choregraphe-icons/box/interaction/say.png"></a>
 
-<li><a href="?command=PLAY_PROGRAM&params='{\'name\': \'Walk to\', \'data\': {\'theta\':0.0,\'x\':0.0,\'arms\':True,\'y\':0.2}}'"><img src="static/choregraphe-icons/box/movement/walk_forward.png"></a>
+<li><a href="?command=PLAY_PROGRAM&params='{\'name\': \'Walk to\', \'data\': {\'theta\':0.0,\'x\':0.3,\'arms\':True,\'y\':0.2}}'"><img src="static/choregraphe-icons/box/movement/walk_forward.png"></a>
 
 </ul>
 
