@@ -9,7 +9,7 @@
   <form action="?command=CMDSAY&params=$parameters" method="get">
     <input name="parameters"  value="Hello"/>
 
-    <input type="submit" name="my_form_submit_button" 
+    <input type="submit" name="" 
            value=""/>
 
     </form>
