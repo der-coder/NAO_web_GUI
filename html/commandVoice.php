@@ -4,10 +4,10 @@
 <?php include 'banner.php';?>
 <?php include 'comandos.php';?>
 <ul class="voice">
-<li><a href="?command=SAY&params=['hi']"><img src="static/choregraphe-icons/box/interaction/say.png"></a>
+<li><a href="?command=SAY&params=['Hello Bats']"><img src="static/choregraphe-icons/box/interaction/say.png"></a>
 </ul>
-  <form action="" method="post">
-    <input name="?command=SAY&params=" value="'hello'"/>
+  <form action="?command=SAY&params=['Hello Bats']" method="post">
+    <input name="?command=SAY&params=" value="['hello']"/>
 
     <input type="submit" name="" 
            value=""/>
