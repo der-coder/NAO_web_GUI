@@ -28,3 +28,10 @@ $sock_data = socket_write($sock, $msg ,  1024);
 receiveData($sock);
 socket_close($sock); //Close socket 
 ?>
+
+  <script>
+  function myFunction() {
+	
+	window.location = "?command=SAY&params='"+(document.getElementById('textinput').value) + "'"  ; 
+}
+</script>
