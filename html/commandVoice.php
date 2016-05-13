@@ -12,5 +12,12 @@
 	  <label for="textinput">Texto a hablar:</label>
 	  <input type="text" name="textinput" id="textinput" value="pon tu texto aqui"  />
   </div>
+<script>
+  function myFunction() {
+	
+	window.location = "?command=SAY&params='"+(document.getElementById('textinput').value) + "'"  ; 
+}
+</script>
+  
 </body>
 </html>
